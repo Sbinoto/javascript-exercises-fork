@@ -2,5 +2,7 @@ const reverseString = function() {
 
 };
 
-// Do not edit below this line
+function reverseString(word){
+    return word.split("").reverse().join("")
+}
 module.exports = reverseString;
